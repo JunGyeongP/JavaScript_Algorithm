@@ -11,7 +11,6 @@ function solution(n) {
   let ny = 0;
   let path = 0;
   while (cnt <= n * n) {
-    console.log(nx, ny, cnt);
     answer[ny][nx] = cnt;
     if (
       nx + dx[path] > n - 1 ||
