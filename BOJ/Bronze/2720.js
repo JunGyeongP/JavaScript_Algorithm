@@ -1,6 +1,6 @@
 const fs = require("fs");
-// let input = fs.readFileSync("../input.txt").toString(); //test
-let input = fs.readFileSync("/dev/stdin").toString().trim(); //제출
+let input = fs.readFileSync("../input.txt").toString(); //test
+// let input = fs.readFileSync("/dev/stdin").toString().trim(); //제출
 input = input.split("\n").map(Number);
 
 let n = input[0];
